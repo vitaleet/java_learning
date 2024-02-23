@@ -78,3 +78,18 @@ Multiplication Compound Assignment | result *= 5;
 Division Compound Assignment | result /=5;
 
 Post-fix operator will only increment the value after code execution, hence while assigning a value with post-fix increment, the value will not incremented yet. Upon completion of value assignment, the value will be incremented.
+
+**Conditional Logic**
+``if`` is used when certain condition were met and run code within the block.
+
+``if else`` to split the code to run within the condition or run outside the condition
+
+``if else if esle`` to have multiple condition and execute only when the condition is met on certain part of the conditional statement
+
+``switch`` almost similar to ``if else if else`` statement, but in cleaner way of managing code. Switch relies on ``break`` keyword to exit the code block, if no ``break`` were found, the code will continue fall through any case label below.
+
+**Logical Operator**
+Operator | numeric
+--- | --- 
+|| |  
+&& |

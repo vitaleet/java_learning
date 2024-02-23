@@ -12,4 +12,7 @@ public class Main {
             System.out.println("i = " + i);
         }
     }
+    public static void printMegaBytesAndKiloBytes(int kiloBytes){
+        System.out.println(kiloBytes + " KB = " + kiloBytes/1000 + " MB and " + kiloBytes%1000 + " KB");
+    }
 }
